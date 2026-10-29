@@ -25,7 +25,7 @@
           "marketingVersion": "1.0.2 (4)",
           "date": "2026-10-29",
           "localizedDescription": "Rex 1.0.2（b4）",
-          "downloadURL": "https://YOUR-HOST.example.com/rex/Rex.1.0.2(b4).ipa",
+          "downloadURL": "https://github.com/dhou2258-spec/scripting-skills/releases/download/rex-1.0.2/Rex-1.0.2-b4.ipa",
           "size": 137535128,
           "minOSVersion": "17.0"
         }
