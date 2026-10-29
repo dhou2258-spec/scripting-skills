@@ -1,0 +1,55 @@
+{
+  "name": "Rex Source",
+  "subtitle": "Rex 媒体播放器（Infuse 类，Dolby Vision / AI 字幕 / 网盘）",
+  "description": "Rex —— 支持 Dolby Vision / HDR、AI 语音识别字幕与多 LLM 字幕翻译、115 网盘 / Plex / SMB、TMDB / Trakt 元数据的全能媒体播放器。",
+  "website": "https://rexnow.tv",
+  "tintColor": "#CC3344",
+  "nsfw": false,
+  "featuredApps": [
+    "tv.rexnow.app"
+  ],
+  "apps": [
+    {
+      "name": "Rex",
+      "bundleIdentifier": "tv.rexnow.app",
+      "developerName": "RexNow",
+      "subtitle": "支持 Dolby Vision 与 AI 字幕的媒体播放器",
+      "localizedDescription": "Rex 是一款全能的本地与网盘媒体播放器：\n• 播放内核：FFmpeg、Dolby Vision（libdovi）、AV1（libdav1d）、SRT 流、SMB 共享、onnxruntime AI 画质增强\n• 元数据：TMDB / Trakt / IMDB / 豆瓣 / 烂番茄，片头片尾自动跳过（theIntroDB）\n• 字幕：OpenSubtitles / Assrt / 射手网，ASR 语音识别（FunASR），12+ 家 LLM 字幕翻译\n• 网盘/服务器：115 网盘、Plex、Drivemby\n• 弹幕、脚本中心、AI 推荐",
+      "iconURL": "https://github.com/dhou2258-spec/scripting-skills/releases/download/rex-1.0.2/rex-icon.png",
+      "tintColor": "#CC3344",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.0.2",
+          "buildVersion": "4",
+          "marketingVersion": "1.0.2 (4)",
+          "date": "2026-10-29",
+          "localizedDescription": "Rex 1.0.2（b4）",
+          "downloadURL": "https://YOUR-HOST.example.com/rex/Rex.1.0.2(b4).ipa",
+          "size": 137535128,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "aps-environment",
+          "beta-reports-active",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.devicecheck.appattest-environment",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.user-fonts",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Rex uses Face ID to verify your identity and unlock protected viewing environments.",
+          "NSLocalNetworkUsageDescription": "Rex uses your local network to find NAS devices and file shares, and to transfer library indexes between your devices.",
+          "NSPhotoLibraryAddUsageDescription": "Save captured video frames to your photo library.",
+          "NSSpeechRecognitionUsageDescription": "Rex uses speech recognition to turn dialogue from the video you are playing into subtitles when you enable speech recognition subtitles."
+        }
+      }
+    }
+  ],
+  "news": []
+}
